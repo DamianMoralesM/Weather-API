@@ -34,6 +34,10 @@ app.get(`/${apiVersion}/location`, (req, res, next) => {
   })
 });
 
+app.get(`/${apiVersion}`, (req, res, next) => {  
+    res.send(`Welcome to Weather API v1`);  
+});
+
 app.listen(PORT, () => {
   console.log(`Server is listening on port: ${PORT}`);
 });
