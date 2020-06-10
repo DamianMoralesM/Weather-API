@@ -48,4 +48,4 @@ Launch unit tests: npm run test
 
 # Demo
 - Note: Current weather and forecast will be returned for server location
-- Link: https://weather-back-api.herokuapp.com/
+- Link: https://weather-back-api.herokuapp.com/v1
