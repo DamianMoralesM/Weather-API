@@ -14,20 +14,20 @@
 
 
 # Technical Considerations 
-Created ForecastUtility with two methods: 
-getForecast
-getCurrentWeather
+1. Created ForecastUtility with two methods: 
+- getForecast
+- getCurrentWeather
 
-both could recieve as opctional parameter the city to look for
+> both could recieve as opctional parameter the city to look for
 
 
-Created WeatherController to get both the forecast and the weather
+2. Created WeatherController to get both the forecast and the weather
 
 # Future Improvementes: 
-v1/current and v1/forecast could recieve the location from a client:
+**v1/current** and **v1/forecast** could recieve the location from a client:
 
-v1/current?lon=43&lat=32
-v1/forecast?lon=43&lat=32
+- v1/current?lon=43&lat=32
+- v1/forecast?lon=43&lat=32
 
 
 # Getting Started
@@ -43,10 +43,9 @@ v1/forecast?lon=43&lat=32
 
 Launch unit tests: npm run test
 
-Unit Testing for Utilities : Done
-Rest API Testing: Done
+-Unit Testing for Utilities : **Done**
+- Rest API Testing: **Done**
 
 # Demo
-Link:
-Note: Current weather and forecast will be returned for server location
-Link: https://weather-back-api.herokuapp.com/
+- Note: Current weather and forecast will be returned for server location
+- Link: https://weather-back-api.herokuapp.com/
