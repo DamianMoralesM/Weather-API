@@ -177,10 +177,20 @@
 
 # Testing
 
+## Unit Testing
 Launch unit tests: npm run test
 
 - Unit Testing for Utilities : **Done**
 - Rest API Testing: **Done**
+
+## Manual Test Cases
+For these one the Postman Collection is provided in this repo, you can import and test
+### Test cases
+1. Get weather for current city
+2. Get forecast for current city
+3. Get weather for a given city
+4. Get forecast for a given city
+5. Get location
 
 # Demo
 - Note: Current weather and forecast will be returned for server location
