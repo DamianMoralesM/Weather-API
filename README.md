@@ -43,7 +43,7 @@
 
 Launch unit tests: npm run test
 
--Unit Testing for Utilities : **Done**
+- Unit Testing for Utilities : **Done**
 - Rest API Testing: **Done**
 
 # Demo
