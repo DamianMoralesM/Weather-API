@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "32c5ef71-8114-4664-ad64-8e4f662bf460",
+		"name": "Weather API",
+		"description": "This is an API that returns weather and forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Current weather data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weather-back-api.herokuapp.com/v1/current",
+					"protocol": "https",
+					"host": [
+						"weather-back-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forecast Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weather-back-api.herokuapp.com/v1/forecast",
+					"protocol": "https",
+					"host": [
+						"weather-back-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"forecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forecast for a given city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weather-back-api.herokuapp.com/v1/forecast/corrientes",
+					"protocol": "https",
+					"host": [
+						"weather-back-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"forecast",
+						"corrientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weather-back-api.herokuapp.com/v1/location",
+					"protocol": "https",
+					"host": [
+						"weather-back-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather data for a target city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weather-back-api.herokuapp.com/v1/current/corrientes",
+					"protocol": "https",
+					"host": [
+						"weather-back-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"current",
+						"corrientes"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
