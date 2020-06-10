@@ -19,6 +19,8 @@ const WeatherController = {
     const city = req.params.city || "";
     ForecastUtility.getForecast(city)
       .then((response) => {
+        const forecastForFiveDays = response.data.daily.slice(0,5);
+        response.data.daily = forecastForFiveDays;
         res.send(response.data);
       })
       .catch((error) => {
