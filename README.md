@@ -2,15 +2,15 @@
 
 # API Definition: 
 
-v1/current
+> v1/current
 
-v1/current/:city
+ > v1/current/:city
 
-v1/forecast
+> v1/forecast
 
-v1/forecast/:city
+> v1/forecast/:city
 
-v1/location
+> v1/location
 
 
 # Technical Considerations 
